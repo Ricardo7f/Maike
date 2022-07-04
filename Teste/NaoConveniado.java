@@ -5,7 +5,7 @@ public class NaoConveniado extends Paciente {
 
     public NaoConveniado(int cpf, String nome) {
 		super(cpf, nome);
-		// TODO Auto-generated constructor stub
+
 	}
 
 	protected int numCartaoCredito;
@@ -36,10 +36,9 @@ public class NaoConveniado extends Paciente {
   public void agendarConsulta(String nomeEspecialidade, int numCartaoCredito , String bandeiraCartaoCredito) {
 }
 
-@Override
+
 public void agendarConsulta() {
-	// TODO Auto-generated method stub
-	
+
 }
   
 }
